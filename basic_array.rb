@@ -1,6 +1,8 @@
 # Trello Board Ladder
 
+
 # Question 1
+
 
 # input: [1, 2, 3, 4]
 # output: 10
@@ -24,6 +26,7 @@
 
 # p sum_of_numbers([1, 2, 3, 4])
 
+
 # Question 2
 
 
@@ -41,4 +44,29 @@
 
 # p new_array
 
+
 # Question 3
+
+
+# Given an array of numbers, return a new array whose values are the original array’s value doubled.
+
+# Input: [4, 2, 5, 99, -4]
+# Output: [8, 4, 10, 198, -8]
+
+# p [4, 2, 5, 99, -4].map { |e| e * 2 }
+
+
+# Question 4
+
+
+# Return the greatest value from an array of numbers.
+
+# Input: [5, 17, -4, 20, 12]
+# Output: 20
+
+
+# array = [5, 17, -4, 20, 12]
+
+# array.each do |numbers|
+
+# end
