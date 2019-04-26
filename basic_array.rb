@@ -127,3 +127,19 @@
 
 # Output:
 # [2, 3, 1, 2, 2, 1, 5, 2, 2]
+
+# old_array = [2, 1, 3, 2, 5, 1, 2, 6, 2, 7, 1, 5, 6, 3, 2, 6, 2, 1, 2]
+# new_array = []
+# index = 0
+
+# old_array.each do |spaces|
+#   index = spaces
+#   if index == spaces
+    
+#   end
+#     new_array << spaces
+# end
+
+# p new_array
+
+# I may need to use a while or a times loop
