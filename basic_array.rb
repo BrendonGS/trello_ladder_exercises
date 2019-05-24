@@ -128,18 +128,16 @@
 # Output:
 # [2, 3, 1, 2, 2, 1, 5, 2, 2]
 
-# old_array = [2, 1, 3, 2, 5, 1, 2, 6, 2, 7, 1, 5, 6, 3, 2, 6, 2, 1, 2]
-# new_array = []
-# index = 0
 
-# old_array.each do |spaces|
-#   index = spaces
-#   if index == spaces
-    
+# def skip(array)
+#   new_array = []
+#   i = 0
+
+#   while i < array.length
+#     new_array << array[i]
+#     i += array[i]
 #   end
-#     new_array << spaces
+#   new_array
 # end
 
-# p new_array
-
-# I may need to use a while or a times loop
+# p skip([2, 1, 3, 2, 5, 1, 2, 6, 2, 7, 1, 5, 6, 3, 2, 6, 2, 1, 2])

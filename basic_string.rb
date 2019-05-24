@@ -22,3 +22,27 @@
 # Question 2
 
 
+# Given a string, return true if the “$” character is contained within the string or false if it is not.
+
+# Input: “i hate $ but i love money i know i know im crazy”
+# Output: true
+
+# Input: “abcdefghijklmnopqrstuvwxyz”
+# Output: false
+
+# str = "i hate $ but i love money i know i know im crazy"
+
+# str.length.times do |character|
+#   if str[character] == "$"
+#     p true
+#   else 
+#     p false
+#   end
+# end
+
+# if str % "$" == 0
+#   p true
+# else
+#   p false  
+# end
+
